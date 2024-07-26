@@ -2,3 +2,9 @@ body {
     background-color:rgb(253, 244, 253) ;
 }
 
+#presentacion {
+    height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
