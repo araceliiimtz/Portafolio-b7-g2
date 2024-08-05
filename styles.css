@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(253, 244, 253) ;
+    background-color: rgb(253, 244, 253);
 }
 
 #presentacion {
@@ -7,4 +7,33 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    background-image: url(assets/pngtree-chemistry-abstract-molecular-structure-molecular-link-blue-image_327089.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-1 {
+    background-image: url('Clon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+
+#proyecto-2 {
+    background-image: url('Clon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-3 {
+    background-image: url('Clon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

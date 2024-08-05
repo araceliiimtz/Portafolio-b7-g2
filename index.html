@@ -18,9 +18,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-black" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Araceli</a>
+                <a class="navbar-brand" href="#presentacion">Araceli</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,13 +31,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -48,23 +48,21 @@
 
     <main>
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="https://facultades.unab.cl/cienciasexactas/wp-content/uploads/2022/03/AdobeStock_101292718-scaled.jpeg"
-                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
-                        loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Araceli Martinez
-                    </h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-                        <button type="button"
-                            class="btn btn-outline-secondary btn-lg px-4">aracelimtz0312@gmail.com</button>
+        <section id="presentacion" class="container-fluid">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <div class="row flex-lg-row align-items-center g-5 py-5 my-5">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-white text-shadow-1 mb-3">Araceli Martinez Faustino
+                        </h1>
+                        <p class="lead text-shadow-1 text-white">Quickly design and customize responsive mobile-first
+                            sites with Bootstrap, the
+                            world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                            responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-secondary btn-lg px-4">aracelimtz0312@gmail.com</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,31 +98,20 @@
             </div>
         </section>
 
+
         <section class="container px-4 py-5" id="proyectos">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-1.jpg');">
+                    <div id="proyecto-1"
+                        class="proyecto card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Earth</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
+                                <li class="mx-auto">
+                                    <a class="link-light" href="http://" target="_blank">Ve a mi proyecto</a>
                                 </li>
                             </ul>
                         </div>
@@ -132,27 +119,13 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
+                    <div id="proyecto-2"
+                        class="proyecto card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
-                                lines</h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Pakistan</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>4d</small>
+                                <li class="mx-auto">
+                                    <a class="link-light" href="http://" target="_blank">Ve a mi proyecto</a>
                                 </li>
                             </ul>
                         </div>
@@ -160,36 +133,24 @@
                 </div>
 
                 <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-3.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                    <div id="proyecto-3"
+                        class="proyecto card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>California</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>5d</small>
+                                <li class="mx-auto">
+                                    <a class="link-light" href="http://" target="_blank">Ve a mi proyecto</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -199,45 +160,41 @@
                         class="active" aria-current="true"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container py-5 text-center px-5">
+                            <img class="rounded-5" src="assets/1698378543620.png" height="300" alt="Ada Lovelace">
+                            <h3>Ada Lovelace</h3>
+                            <p>
+                                Araceli ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
+                                interes por aprender la motiva a mejorar con cada proyecto que realiza.
+                                Litzi Sánchez.
+                                Mentora Técnica en Tecnolochicas.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="container py-5 text-center px-5">
+                            <img class="rounded-5" src="assets/1698378543620.png" height="300" alt="Ada Lovelace">
+                            <h3>Ada Lovelace</h3>
+                            <p>
+                                Araceli ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
+                                interes por aprender la motiva a mejorar con cada proyecto que realiza.
+                                Litzi Sánchez.
+                                Mentora Técnica en Tecnolochicas.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="carousel-item">
+                        <article class="container py-5 text-center px-5">
+                            <img class="rounded-5" src="assets/1698378543620.png" height="300" alt="Ada Lovelace">
+                            <h3>Ada Lovelace</h3>
+                            <p>
+                                Araceli ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
+                                interes por aprender la motiva a mejorar con cada proyecto que realiza.
+                                Litzi Sánchez.
+                                Mentora Técnica en Tecnolochicas.
+                            </p>
+                        </article>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -255,16 +212,30 @@
     </main>
 
 
-    <footer id="contacto" class="container">
-        <div class="py-3 my-4">
+    <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
+        <div class="py-3">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+
+                <li class="nav-item">
+                    <a href="aqui va el link" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="aqui va el link" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-instagram fs-1"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="aqui va el link" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-1"></i>
+                    </a>
+                </li>
+
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Araceli, Tecnolochicas pro</p>
         </div>
     </footer>
 
