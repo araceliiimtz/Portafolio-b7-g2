@@ -14,7 +14,7 @@ body {
 }
 
 #proyecto-1 {
-    background-image: url('Clon.png');
+    background-image: url(assets/Clon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -25,14 +25,14 @@ body {
 }
 
 #proyecto-2 {
-    background-image: url('Clon.png');
+    background-image: url(assets/Portafolio.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #proyecto-3 {
-    background-image: url('Clon.png');
+    background-image: url(assets/Biodigestor.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
