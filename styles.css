@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(253, 244, 253);
+}
+
+#presentacion {
+    height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(assets/pngtree-chemistry-abstract-molecular-structure-molecular-link-blue-image_327089.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#proyecto-1 {
+    background-image: url(assets/Becalos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+
+#proyecto-2 {
+    background-image: url(assets/Convencion\ 2024.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-3 {
+    background-image: url(assets/Imiq\ taller\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-4 {
+    background-image: url(assets/Imiq\ taller\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-5 {
+    background-image: url(assets/Participacion\ delfin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-6 {
+    background-image: url(assets/Ponente.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-7 {
+    background-image: url(assets/Portafolio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-8 {
+    background-image: url(assets/Rally.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-9 {
+    background-image: url(assets/Tecnolochicas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
